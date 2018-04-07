@@ -6,23 +6,40 @@
  * resulting in a new sale total appearing prior to purchase. 
  */
 import java.util.*;
+import java.util.ArrayList;
 import java.util.Calendar;
  
 public class Functionality {
-//ArrayList<//Whatever info from database is> customerArray = new ArrayList<>();
-	//This method will take all the items from the selected list and add their prices together
+	Calendar rightNow = Calendar.getInstance(); 
+ArrayList<Double> customerArray = new ArrayList<Double>(); 
 
-Calendar rightNow = Calendar.getInstance(); 
+
+
+
 /* clerk creates every item and it is automatically inserted into the database via SQL.
  * Then this code connects to the SQL main RetrieveItem method, so when you type
  * the item id a price is returned, then put into an array here. after the sum method
  * then adds all the prices from the newly made array.
 */
 
+public ArrayList<Double> fillList()
+{
+    boolean b = true; 
+	double price;
+    do{
+    	price = Retrieve(); 
+    	customerArray.add(price); 
+    	    
+}while( b = true); 
+}
+
+
+//This method will take all the items from the selected list and add their prices together
 	public static void Sum(double customerArray){
+		
 		double totalPrice = 0;
 		for(double i = 0; i <= customerArray.length; i++){
-			totalPrice += customerArray[i];
+			totalPrice += customerArray[i]; 
 		}
 	}
 	
