@@ -13,26 +13,32 @@ public class Functionality {
 	//This method will take all the items from the selected list and add their prices together
 
 Calendar rightNow = Calendar.getInstance(); 
-	public static void Sum(int customerArray){
-		int totalPrice = 0;
-		for(int i = 0; i <= customerArray.length; i++){
+/* clerk creates every item and it is automatically inserted into the database via SQL.
+ * Then this code connects to the SQL main RetrieveItem method, so when you type
+ * the item id a price is returned, then put into an array here. after the sum method
+ * then adds all the prices from the newly made array.
+*/
+
+	public static void Sum(double customerArray){
+		double totalPrice = 0;
+		for(double i = 0; i <= customerArray.length; i++){
 			totalPrice += customerArray[i];
 		}
 	}
 	
 	
 	// This method will take the sum of the items selected and tax them appropriately 
-	public static void Tax(int totalPrice){
+	public static void Tax(double totalPrice){
 		
-		int taxTotalPrice = (int) ((totalPrice * 1.3) + totalPrice);  
-		// nxt line show the sum with tax on a label or textbox in GUI
+		double taxTotalPrice = (double) ((totalPrice * 1.3) + totalPrice);  
+		// next line show the sum with tax on a label or textbox in GUI
 		
 	}
 	
 	
 	//This method will take off 10% of the total price of the users selected items
-	public static void Coupon(int taxTotalPrice){
+	public static void Coupon(double taxTotalPrice){
 		
-		int newTotalPrice = (int)((taxTotalPrice * 0.10) + taxTotalPrice);
+		double newTotalPrice = (double)((taxTotalPrice * 0.10) + taxTotalPrice);
 	}
 }
