@@ -12,3 +12,11 @@ Background
 A point of sale system is designed to provide information to the business owner. Using this information, they can predict with clarity from daily sales volume to inventory information. All this data helps business owners increase profits and reduce stress. The ways to achieve this goal is to reduce operating costs and increase net income by an increasing sale.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
+Functionality
+
+Quick and easy sale management
+
+Possibility of flexible POS configuration : with a display for cashier, a monitor, a touch screen and connected scanner/ scale.
+
+Most functions can be operated without the use of a mouse: the use of POS keyboard only
+
