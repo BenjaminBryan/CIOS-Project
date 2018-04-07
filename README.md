@@ -1,5 +1,4 @@
 # CIOS-Project
-Edit as we go!
 This README file will explain the function of our point of sale software, how it works and how to use it.
 This is a point of sale system which contains a database through sql containing a list of the inventory (random items).
 The list holds item number, name and price and the user will use the GUI to select items and add them to their (cart) list.
@@ -14,9 +13,14 @@ A point of sale system is designed to provide information to the business owner.
 -----------------------------------------------------------------------------------------------------------------------------------------
 Functionality
 
-Quick and easy sale management
+1) Quick and easy sale management
 
-Possibility of flexible POS configuration : with a display for cashier, a monitor, a touch screen and connected scanner/ scale.
+2) Possibility of flexible POS configuration : with a display for cashier, a monitor, a touch screen and connected scanner/ scale.
 
-Most functions can be operated without the use of a mouse: the use of POS keyboard only
+3) The possibility to use the touch screen
 
+4) Mechanism of automatic recognition of errors – active while entering data by cashier
+
+5) Possibility to adapt the cashier graphic interface to customers’ needs : applies to POS configured with a monitor or touch screen
+
+6) Possibility to use POSs for Inventory
