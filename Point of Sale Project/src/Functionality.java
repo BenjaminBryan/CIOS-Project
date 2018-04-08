@@ -47,7 +47,7 @@ public ArrayList<Double> fillList()
 	// This method will take the sum of the items selected and tax them appropriately 
 	public static void Tax(double totalPrice){
 		
-		double taxTotalPrice = (double) ((totalPrice * 1.3) + totalPrice);  
+		double taxTotalPrice = (double) ((totalPrice * .13) + totalPrice);  
 		// next line show the sum with tax on a label or textbox in GUI
 		
 	}
